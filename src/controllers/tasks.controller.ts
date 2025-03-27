@@ -1,20 +1,21 @@
-const getAllTasks = (req: any, res: any) => {
+import { Request, Response } from "express";
+const getAllTasks = (req: Request, res: Response) => {
   res.send({ status: "success", data: [] });
 };
 
-const getSingleTask = (req: any, res: any) => {
+const getSingleTask = (req: Request, res: Response) => {
   res.send({ status: "success", data: [] });
 };
 
-const createTask = (req: any, res: any) => {
+const createTask = (req: Request, res: Response) => {
   res.send({ status: "success", data: [] });
 };
 
-const updateTask = (req: any, res: any) => {
+const updateTask = (req: Request, res: Response) => {
   res.send({ status: "success", data: [] });
 };
 
-const deleteTask = (req: any, res: any) => {
+const deleteTask = (req: Request, res: Response) => {
   res.send({ status: "success", data: [] });
 };
 
