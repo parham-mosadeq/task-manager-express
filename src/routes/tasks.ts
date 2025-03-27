@@ -1,9 +1,9 @@
 import {
   getAllTasks,
-  createTask,
   getSingleTask,
   updateTask,
   deleteTask,
+  createTask,
 } from "@controllers/tasks.controller";
 import express from "express";
 const taskRouter = express.Router();
