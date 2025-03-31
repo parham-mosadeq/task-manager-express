@@ -9,7 +9,6 @@ const PORT = 3000;
 app.use(express.json());
 
 app.use("/api/v1/tasks", taskRouter);
-
 app.use((req, res, next) => {
   console.log(req.method, req.url);
   next();
